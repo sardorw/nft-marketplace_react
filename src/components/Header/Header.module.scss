@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 50px;
+
+  @include lg {
+    padding: 15px 50px;
+  }
+
+  @include sm {
+    padding: 15px 30px;
+  }
+
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-family: $space-mono-font;
+    font-weight: 700;
+    font-size: 22px;
+
+    @include lg {
+      gap: 9px;
+      font-size: 16px;
+    }
+
+    svg {
+      @include lg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+
+  .nav-list {
+    display: inline-flex;
+    gap: 50px;
+
+    @include lg {
+      display: none;
+    }
+
+    a {
+      font-weight: 600;
+      @include base-text;
+    }
+  }
+
+  .button {
+    @include lg {
+      display: none;
+    }
+  }
+
+  .nav-menu {
+    display: none;
+
+    @include lg {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+}

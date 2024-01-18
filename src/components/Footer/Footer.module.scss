@@ -1,0 +1,118 @@
+@mixin text {
+  @include base-text;
+  color: $gray-light-color;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 40px 115px;
+  background-color: $bg-secondary-color;
+
+  @include lg {
+    padding: 40px 72px;
+  }
+
+  @include sm {
+    padding: 40px 30px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px 80px;
+    padding: 0 30px;
+
+    @include lg {
+      flex-direction: column;
+      padding: 0;
+    }
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: $space-mono-font;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  .creator {
+    max-width: 240px;
+    margin-top: 30px;
+    @include text;
+
+    @include lg {
+      max-width: none;
+      margin-top: 20px;
+    }
+  }
+
+  .socials-title {
+    margin-top: 20px;
+    @include text;
+  }
+
+  .socials-wrapper {
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .heading {
+    @include h5-text;
+  }
+
+  .nav-list {
+    margin-top: 25px;
+
+    @include lg {
+      margin-top: 20px;
+    }
+
+    li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    a {
+      @include text;
+    }
+  }
+
+  .join-subtitle {
+    max-width: 350px;
+    margin-top: 25px;
+    @include text;
+
+    @include lg {
+      max-width: none;
+      margin-top: 20px;
+    }
+  }
+
+  .join-button {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .line {
+    margin-top: 30px;
+    border: none;
+    border-top: 1px solid $gray-color;
+
+    @include lg {
+      margin-top: 50px;
+    }
+
+    @include sm {
+      margin-top: 30px;
+    }
+  }
+
+  .copyright {
+    margin-top: 20px;
+    @include caption-text;
+    color: $gray-light-color;
+  }
+}
