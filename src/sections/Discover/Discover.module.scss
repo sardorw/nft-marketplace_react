@@ -1,0 +1,121 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  gap: 30px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  @include md {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  @include sm {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.heading {
+  @include h1-text;
+
+  @include lg {
+    @include h3-text;
+  }
+
+  @include sm {
+    @include h4-text;
+  }
+}
+
+.subtitle {
+  margin-top: 20px;
+  @include h5-text;
+
+  @include sm {
+    margin-top: 10px;
+  }
+}
+
+.statistics {
+  order: 1;
+
+  .button {
+    @include md {
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+
+    @include lg {
+      margin-top: 20px;
+    }
+
+    @include sm {
+      margin-top: 40px;
+    }
+  }
+
+  &__item {
+    h4 {
+      font-family: $space-mono-font;
+      @include h4-text;
+
+      @include lg {
+        @include h5-text;
+      }
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 1.6;
+
+      @include lg {
+        @include base-text;
+      }
+    }
+  }
+}
+
+.card {
+  border-radius: 20px;
+  grid-row-start: span 2;
+  background-color: $bg-secondary-color;
+
+  @include sm {
+    grid-row-start: auto;
+  }
+
+  img {
+    border-radius: 20px 20px 0 0;
+  }
+
+  &__wrapper {
+    padding: 22px 20px;
+
+    h5 {
+      @include h5-text;
+    }
+  }
+
+  &__artist {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+
+    img {
+      width: 24px;
+    }
+
+    p {
+      @include base-text;
+    }
+  }
+}

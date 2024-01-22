@@ -12,7 +12,7 @@ import Button from '../Button/Button'
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <Container>
+      <Container className={styles.container}>
         <div className={styles.wrapper}>
           <div>
             <a className={styles.logo} href='/'>

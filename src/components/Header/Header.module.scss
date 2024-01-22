@@ -49,6 +49,9 @@
   }
 
   .button {
+    padding-left: 30px;
+    padding-right: 30px;
+
     @include lg {
       display: none;
     }

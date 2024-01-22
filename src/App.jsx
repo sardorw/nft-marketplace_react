@@ -1,9 +1,14 @@
 import Layout from './components/Layout/Layout'
+import Discover from './sections/Discover/Discover'
 
 function App() {
   return (
     <>
-      <Layout></Layout>
+      <Layout>
+        <main>
+          <Discover />
+        </main>
+      </Layout>
     </>
   )
 }
