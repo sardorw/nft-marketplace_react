@@ -176,3 +176,39 @@ export const categoriesData = [
     title: 'Virtual Worlds',
   },
 ]
+
+export const moreNFTsData = [
+  {
+    id: 1,
+    img: '/images/nfts/distant-galaxy.png',
+    name: 'Distant Galaxy',
+    creator: {
+      name: 'MoonDancer',
+      avatar: '/images/creators/moondancer.png',
+    },
+    price: '1.63 ETH',
+    bid: '0.33 wETH',
+  },
+  {
+    id: 2,
+    img: '/images/nfts/life-on-edena.png',
+    name: 'Life On Edena',
+    creator: {
+      name: 'NebulaKid',
+      avatar: '/images/creators/nebulakid.png',
+    },
+    price: '1.63 ETH',
+    bid: '0.33 wETH',
+  },
+  {
+    id: 3,
+    img: '/images/nfts/astrofiction.png',
+    name: 'AstroFiction',
+    creator: {
+      name: 'Spaceone',
+      avatar: '/images/creators/spaceone.png',
+    },
+    price: '1.63 ETH',
+    bid: '0.33 wETH',
+  },
+]

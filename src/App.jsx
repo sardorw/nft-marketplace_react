@@ -3,6 +3,7 @@ import Discover from './sections/Discover/Discover'
 import Collection from './sections/Collection/Collection'
 import Creators from './sections/Creators/Creators'
 import Categories from './sections/Categories/Categories'
+import MoreNFTs from './sections/MoreNFTs/MoreNFTs'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Collection />
           <Creators />
           <Categories />
+          <MoreNFTs />
         </main>
       </Layout>
     </>

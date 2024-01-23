@@ -1,0 +1,55 @@
+.card {
+  border-radius: 20px;
+  background-color: $bg-secondary-color;
+
+  & > img {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .body {
+    padding: 20px 30px;
+
+    @include sm {
+      padding: 20px;
+    }
+
+    h4 {
+      @include h5-text;
+    }
+  }
+
+  .creator {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 5px;
+    @include base-text;
+
+    img {
+      width: 24px;
+      border-radius: 99px;
+    }
+  }
+
+  .infos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    &-item {
+      p {
+        @include space-mono-font;
+        @include base-text;
+
+        @include sm {
+          @include caption-text;
+        }
+
+        &:first-child {
+          margin-bottom: 8px;
+          color: $gray-color;
+        }
+      }
+    }
+  }
+}
