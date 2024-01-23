@@ -1,6 +1,6 @@
 import Container from '../../components/Container/Container'
 import CollectionCard from '../../components/Cards/CollectionCard/CollectionCard'
-import { trendingData } from '../../contents'
+import { collectionData } from '../../contents'
 import styles from './Collection.module.scss'
 
 function Collection() {
@@ -13,7 +13,7 @@ function Collection() {
         </p>
 
         <div className={styles.cards}>
-          {trendingData.map((item) => (
+          {collectionData.map((item) => (
             <CollectionCard key={item.id} data={item} />
           ))}
         </div>

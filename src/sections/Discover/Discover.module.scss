@@ -59,6 +59,8 @@
     }
 
     @include sm {
+      grid-template-columns: repeat(3, auto);
+      justify-content: space-between;
       margin-top: 40px;
     }
   }

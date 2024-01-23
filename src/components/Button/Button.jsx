@@ -1,8 +1,12 @@
 import styles from './Button.module.scss'
 
-function Button({ children, className }) {
+function Button({ children, className, variant }) {
   return (
-    <button className={`${styles.button}${className ? ` ${className}` : ''}`}>
+    <button
+      className={`${styles.button}${className ? ` ${className}` : ''}${
+        variant === 'outlined' ? ` ${styles.outlined}` : ''
+      }`}
+    >
       {children}
     </button>
   )
