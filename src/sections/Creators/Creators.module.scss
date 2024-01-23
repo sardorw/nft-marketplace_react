@@ -13,7 +13,7 @@
     padding-bottom: 40px;
   }
 
-  @include sm {
+  @include md {
     grid-template-columns: 1fr;
     row-gap: 40px;
   }
@@ -41,7 +41,7 @@
     margin-left: auto;
   }
 
-  @include sm {
+  @include md {
     order: 1;
     width: 100%;
   }
@@ -61,7 +61,7 @@
     }
   }
 
-  @include sm {
+  @include md {
     grid-template-columns: none;
     grid-column-start: auto;
     gap: 20px;

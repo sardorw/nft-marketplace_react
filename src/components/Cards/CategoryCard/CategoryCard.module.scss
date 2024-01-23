@@ -1,0 +1,31 @@
+.card {
+  border-radius: 20px;
+  background-color: $bg-secondary-color;
+
+  .box {
+    border-radius: 20px 20px 0 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  img {
+    filter: blur(7.5px);
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  h4 {
+    padding: 20px 30px;
+    @include h5-text;
+
+    @include lg {
+      padding: 20px;
+      @include base-text;
+    }
+  }
+}

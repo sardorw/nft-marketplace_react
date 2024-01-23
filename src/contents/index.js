@@ -1,3 +1,14 @@
+import {
+  BasketballIcon,
+  CameraIcon,
+  MagicWandIcon,
+  MusicNotesIcon,
+  PaintBrushIcon,
+  PlanetIcon,
+  SwatchesIcon,
+  VideoCameraIcon,
+} from '../assets/icons'
+
 export const collectionData = [
   {
     id: 1,
@@ -112,5 +123,56 @@ export const creatorsData = [
     img: '/images/creators/ghiblier.png',
     name: 'Ghiblier',
     totalSales: '34.53 ETH',
+  },
+]
+
+export const categoriesData = [
+  {
+    id: 1,
+    img: '/images/categories/art.png',
+    icon: PaintBrushIcon,
+    title: 'Art',
+  },
+  {
+    id: 2,
+    img: '/images/categories/collectibles.png',
+    icon: SwatchesIcon,
+    title: 'Collectibles',
+  },
+  {
+    id: 3,
+    img: '/images/categories/music.png',
+    icon: MusicNotesIcon,
+    title: 'Music',
+  },
+  {
+    id: 4,
+    img: '/images/categories/photography.png',
+    icon: CameraIcon,
+    title: 'Photography',
+  },
+  {
+    id: 5,
+    img: '/images/categories/video.png',
+    icon: VideoCameraIcon,
+    title: 'Video',
+  },
+  {
+    id: 6,
+    img: '/images/categories/utility.png',
+    icon: MagicWandIcon,
+    title: 'Utility',
+  },
+  {
+    id: 7,
+    img: '/images/categories/sport.png',
+    icon: BasketballIcon,
+    title: 'Sport',
+  },
+  {
+    id: 8,
+    img: '/images/categories/virtual-worlds.png',
+    icon: PlanetIcon,
+    title: 'Virtual Worlds',
   },
 ]
