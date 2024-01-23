@@ -8,9 +8,7 @@ function Discover() {
     <section>
       <Container className={styles.container}>
         <div>
-          <h1 className={styles.heading}>
-            Discover digital art & Collect NFTs
-          </h1>
+          <h1 className={styles.title}>Discover digital art & Collect NFTs</h1>
           <p className={styles.subtitle}>
             NFT marketplace UI created with Anima for Figma. Collect, buy and
             sell art from more than 20k NFT artists.
@@ -39,11 +37,15 @@ function Discover() {
         </div>
 
         <div className={styles.card}>
-          <img src='/images/discover-card.png' alt='Image' />
+          <img
+            src='/images/discover-card.png'
+            alt='Image'
+            className={styles.card__image}
+          />
           <div className={styles.card__wrapper}>
             <h5>Space Walking</h5>
-            <div className={styles.card__artist}>
-              <img src='/images/artists/animakid.png' alt='Animakid' />
+            <div className={styles.card__creator}>
+              <img src='/images/creators/animakid.png' alt='Animakid' />
               <p>Animakid</p>
             </div>
           </div>

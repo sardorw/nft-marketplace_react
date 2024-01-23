@@ -17,7 +17,7 @@
   }
 }
 
-.heading {
+.title {
   @include h1-text;
 
   @include lg {
@@ -65,7 +65,7 @@
 
   &__item {
     h4 {
-      font-family: $space-mono-font;
+      @include space-mono-font;
       @include h4-text;
 
       @include lg {
@@ -93,7 +93,7 @@
     grid-row-start: auto;
   }
 
-  img {
+  &__image {
     border-radius: 20px 20px 0 0;
   }
 
@@ -105,13 +105,14 @@
     }
   }
 
-  &__artist {
+  &__creator {
     display: flex;
     gap: 12px;
     margin-top: 10px;
 
     img {
       width: 24px;
+      border-radius: 9999px;
     }
 
     p {
