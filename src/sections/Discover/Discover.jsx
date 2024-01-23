@@ -38,7 +38,7 @@ function Discover() {
 
         <div className={styles.card}>
           <img
-            src='/images/discover-card.png'
+            src='/images/nfts/space-walking.png'
             alt='Image'
             className={styles.card__image}
           />
