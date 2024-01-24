@@ -212,3 +212,27 @@ export const moreNFTsData = [
     bid: '0.33 wETH',
   },
 ]
+
+export const howItWorksData = [
+  {
+    id: 1,
+    img: '/images/how-it-works/setup-your-wallet.png',
+    title: 'Setup Your wallet',
+    description:
+      'Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.',
+  },
+  {
+    id: 2,
+    img: '/images/how-it-works/create-collection.png',
+    title: 'Create Collection',
+    description:
+      'Upload your work and setup your collection. Add a description, social links and floor price.',
+  },
+  {
+    id: 3,
+    img: '/images/how-it-works/start-earning.png',
+    title: 'Start Earning',
+    description:
+      'Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.',
+  },
+]

@@ -4,7 +4,7 @@
     url('/images/magic-mushroom.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 50%;
+  background-position: 50% 50%;
 
   @include lg {
     height: 630px;

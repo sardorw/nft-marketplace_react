@@ -18,7 +18,7 @@
 
 .subheading {
   margin-top: 10px;
-  @include h5-text;
+  @include body-text;
 
   @include lg {
     @include base-text;

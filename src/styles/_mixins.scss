@@ -38,6 +38,11 @@
 
 @mixin h5-text {
   font-size: 22px;
+  line-height: 1.4;
+}
+
+@mixin body-text {
+  font-size: 22px;
   line-height: 1.6;
 }
 

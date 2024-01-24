@@ -31,7 +31,7 @@
 
 .subtitle {
   margin-top: 20px;
-  @include h5-text;
+  @include body-text;
 
   @include sm {
     margin-top: 10px;
@@ -71,7 +71,7 @@
       @include h4-text;
 
       @include lg {
-        @include h5-text;
+        @include body-text;
       }
     }
 
