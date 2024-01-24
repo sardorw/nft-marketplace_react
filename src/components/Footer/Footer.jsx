@@ -8,6 +8,7 @@ import {
 } from '../../assets/icons'
 import styles from './Footer.module.scss'
 import Button from '../Button/Button'
+import SubscribeForm from '../SubscribeForm/SubscribeForm'
 
 function Footer() {
   return (
@@ -57,7 +58,7 @@ function Footer() {
             <p className={styles['join-subtitle']}>
               Get exclusive promotions & updates straight to your inbox.
             </p>
-            <Button className={styles['join-button']}>Subscribe</Button>
+            <SubscribeForm className={styles['join-button']} />
           </div>
         </div>
 

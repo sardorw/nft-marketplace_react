@@ -6,6 +6,7 @@ import Categories from './sections/Categories/Categories'
 import MoreNFTs from './sections/MoreNFTs/MoreNFTs'
 import Mushrooms from './sections/Mushrooms/Mushrooms'
 import HowItWorks from './sections/HowItWorks/HowItWorks'
+import Join from './sections/Join/Join'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <MoreNFTs />
           <Mushrooms />
           <HowItWorks />
+          <Join />
         </main>
       </Layout>
     </>

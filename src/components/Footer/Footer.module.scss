@@ -87,9 +87,23 @@
   }
 
   .join-button {
-    width: 100%;
+    width: 420px;
     margin-top: 20px;
     justify-content: center;
+
+    @include sm {
+      flex-direction: column;
+      gap: 16px;
+      background-color: transparent;
+
+      input {
+        height: 46px;
+      }
+
+      button {
+        height: 46px;
+      }
+    }
   }
 
   .line {
