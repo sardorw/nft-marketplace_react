@@ -1,6 +1,6 @@
-import CategoryCard from '../../components/Cards/CategoryCard/CategoryCard'
-import Container from '../../components/Container/Container'
-import { categoriesData } from '../../contents'
+import CategoryCard from '@/components/Cards/CategoryCard/CategoryCard'
+import Container from '@/components/Container/Container'
+import { categoriesData } from '@/contents'
 import styles from './Categories.module.scss'
 
 function Categories() {

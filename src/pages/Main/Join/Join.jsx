@@ -1,5 +1,5 @@
-import Container from '../../components/Container/Container'
-import SubscribeForm from '../../components/SubscribeForm/SubscribeForm'
+import Container from '@/components/Container/Container'
+import SubscribeForm from '@/components/SubscribeForm/SubscribeForm'
 import styles from './Join.module.scss'
 
 function Join() {

@@ -1,8 +1,8 @@
-import Container from '../../components/Container/Container'
-import Button from '../../components/Button/Button'
-import NFTCard from '../../components/Cards/NFTCard/NFTCard'
-import { EyeIcon } from '../../assets/icons'
-import { moreNFTsData } from '../../contents'
+import Container from '@/components/Container/Container'
+import Button from '@/components/Button/Button'
+import NFTCard from '@/components/Cards/NFTCard/NFTCard'
+import { EyeIcon } from '@/assets/icons'
+import { moreNFTsData } from '@/contents'
 import styles from './MoreNFTs.module.scss'
 
 function MoreNFTs() {

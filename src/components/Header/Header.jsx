@@ -1,5 +1,5 @@
 import Button from '../Button/Button'
-import { LogoIcon, UserIcon, NavMenuIcon } from '../../assets/icons'
+import { LogoIcon, UserIcon, NavMenuIcon } from '@/assets/icons'
 import styles from './Header.module.scss'
 
 function Header() {

@@ -1,5 +1,5 @@
-import { EnvelopeSimpleIcon } from '../../assets/icons'
 import Button from '../Button/Button'
+import { EnvelopeSimpleIcon } from '@/assets/icons'
 import styles from './SubscribeForm.module.scss'
 
 function SubscribeForm({ className, icon }) {

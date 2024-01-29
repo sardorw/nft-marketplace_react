@@ -1,4 +1,5 @@
 import Container from '../Container/Container'
+import SubscribeForm from '../SubscribeForm/SubscribeForm'
 import {
   DiscordIcon,
   InstagramIcon,
@@ -7,8 +8,6 @@ import {
   YouTubeIcon,
 } from '../../assets/icons'
 import styles from './Footer.module.scss'
-import Button from '../Button/Button'
-import SubscribeForm from '../SubscribeForm/SubscribeForm'
 
 function Footer() {
   return (

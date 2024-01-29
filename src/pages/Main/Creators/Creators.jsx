@@ -1,8 +1,8 @@
-import Container from '../../components/Container/Container'
-import Button from '../../components/Button/Button'
-import CreatorCard from '../../components/Cards/CreatorCard/CreatorCard'
-import { RocketLaunchIcon } from '../../assets/icons'
-import { creatorsData } from '../../contents'
+import Container from '@/components/Container/Container'
+import Button from '@/components/Button/Button'
+import CreatorCard from '@/components/Cards/CreatorCard/CreatorCard'
+import { RocketLaunchIcon } from '@/assets/icons'
+import { creatorsData } from '@/contents'
 import styles from './Creators.module.scss'
 
 function Creators() {

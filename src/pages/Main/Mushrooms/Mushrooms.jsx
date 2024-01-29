@@ -1,6 +1,6 @@
-import { EyeIcon } from '../../assets/icons'
-import Button from '../../components/Button/Button'
-import Container from '../../components/Container/Container'
+import Button from '@/components/Button/Button'
+import Container from '@/components/Container/Container'
+import { EyeIcon } from '@/assets/icons'
 import styles from './Mushrooms.module.scss'
 
 function Mushrooms() {

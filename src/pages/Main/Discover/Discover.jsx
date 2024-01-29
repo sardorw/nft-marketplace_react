@@ -1,6 +1,6 @@
-import Container from '../../components/Container/Container'
-import Button from '../../components/Button/Button'
-import { RocketLaunchIcon } from '../../assets/icons'
+import Container from '@/components/Container/Container'
+import Button from '@/components/Button/Button'
+import { RocketLaunchIcon } from '@/assets/icons'
 import styles from './Discover.module.scss'
 
 function Discover() {

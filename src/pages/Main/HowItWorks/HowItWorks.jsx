@@ -1,6 +1,6 @@
-import HowItWorkCard from '../../components/Cards/HowItWorkCard/HowItWorkCard'
-import Container from '../../components/Container/Container'
-import { howItWorksData } from '../../contents'
+import HowItWorkCard from '@/components/Cards/HowItWorkCard/HowItWorkCard'
+import Container from '@/components/Container/Container'
+import { howItWorksData } from '@/contents'
 import styles from './HowItWorks.module.scss'
 
 function HowItWorks() {
