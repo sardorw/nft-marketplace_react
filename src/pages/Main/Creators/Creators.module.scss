@@ -53,6 +53,10 @@
   grid-column-start: span 2;
   gap: 30px;
 
+  @include xl {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   @include lg {
     grid-template-columns: repeat(2, 1fr);
 

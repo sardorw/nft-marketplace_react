@@ -1,5 +1,11 @@
+@mixin xl {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
 @mixin lg {
-  @media (max-width: 992px) {
+  @media (max-width: 1080px) {
     @content;
   }
 }
@@ -11,7 +17,7 @@
 }
 
 @mixin sm {
-  @media (max-width: 480px) {
+  @media (max-width: 576px) {
     @content;
   }
 }

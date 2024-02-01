@@ -15,11 +15,11 @@
   .wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 30px 80px;
     padding: 0 30px;
 
-    @include lg {
+    @include xl {
       flex-direction: column;
+      gap: 30px;
       padding: 0;
     }
   }
@@ -36,7 +36,7 @@
   .creator {
     max-width: 240px;
     margin-top: 30px;
-    @include text;
+    @include base-text;
 
     @include lg {
       max-width: none;
@@ -46,7 +46,7 @@
 
   .socials-title {
     margin-top: 20px;
-    @include text;
+    @include base-text;
   }
 
   .socials-wrapper {
@@ -71,14 +71,14 @@
     }
 
     a {
-      @include text;
+      @include base-text;
     }
   }
 
   .join-subtitle {
     max-width: 350px;
     margin-top: 25px;
-    @include text;
+    @include base-text;
 
     @include lg {
       max-width: none;
@@ -94,6 +94,7 @@
     @include sm {
       flex-direction: column;
       gap: 16px;
+      width: auto;
       background-color: transparent;
 
       input {

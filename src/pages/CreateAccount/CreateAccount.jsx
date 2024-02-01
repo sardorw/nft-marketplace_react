@@ -1,5 +1,7 @@
 import Layout from '@/components/Layout/Layout'
 import Button from '@/components/Button/Button'
+import Input from '@/components/Input/Input'
+import { UserIcon, EnvelopeSimpleIcon, LockKeyIcon } from '@/assets/icons'
 import styles from './CreateAccount.module.scss'
 
 function CreateAccount() {
@@ -14,6 +16,13 @@ function CreateAccount() {
             selling NFTs.
           </p>
           <div className={styles.wrapper}>
+            <Input placeholder='Username' icon={<UserIcon fill='#b4b4b4' />} />
+            <Input
+              placeholder='Email Address'
+              icon={<EnvelopeSimpleIcon fill='#b4b4b4' />}
+            />
+            <Input placeholder='Password' icon={<LockKeyIcon />} />
+            <Input placeholder='Confirm Password' icon={<LockKeyIcon />} />
             <Button className={styles.button}>Create account</Button>
           </div>
         </div>
