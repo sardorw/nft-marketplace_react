@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 30px;
   padding: 20px 50px;
@@ -32,6 +31,10 @@
         height: 24px;
       }
     }
+  }
+
+  nav {
+    margin-left: auto;
   }
 
   .nav-list {

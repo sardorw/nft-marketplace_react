@@ -1,4 +1,3 @@
-import Layout from '@/components/Layout/Layout'
 import Discover from './Discover/Discover'
 import Collection from './Collection/Collection'
 import Creators from './Creators/Creators'
@@ -10,18 +9,16 @@ import Join from './Join/Join'
 
 function Main() {
   return (
-    <Layout>
-      <main>
-        <Discover />
-        <Collection />
-        <Creators />
-        <Categories />
-        <MoreNFTs />
-        <Mushrooms />
-        <HowItWorks />
-        <Join />
-      </main>
-    </Layout>
+    <main>
+      <Discover />
+      <Collection />
+      <Creators />
+      <Categories />
+      <MoreNFTs />
+      <Mushrooms />
+      <HowItWorks />
+      <Join />
+    </main>
   )
 }
 

@@ -6,7 +6,7 @@ import {
   LogoIcon,
   TwitterIcon,
   YouTubeIcon,
-} from '../../assets/icons'
+} from '@/assets/icons'
 import styles from './Footer.module.scss'
 
 function Footer() {

@@ -236,3 +236,21 @@ export const howItWorksData = [
       'Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.',
   },
 ]
+
+export const walletsData = [
+  {
+    id: 1,
+    img: '/images/wallets/metamask.png',
+    name: 'Metamask',
+  },
+  {
+    id: 2,
+    img: '/images/wallets/wallet-connect.png',
+    name: 'Wallet Connect',
+  },
+  {
+    id: 3,
+    img: '/images/wallets/coinbase.png',
+    name: 'Coinbase',
+  },
+]
