@@ -1,8 +1,8 @@
 import styles from './NFTCard.module.scss'
 
-function NFTCard({ data }) {
+function NFTCard({ data, bgColor }) {
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card}${bgColor ? ` ${styles['bg-color']}` : ''}`}>
       <img src={data.img} alt='Image' />
       <div className={styles.body}>
         <h4>{data.name}</h4>
