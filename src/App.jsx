@@ -3,6 +3,7 @@ import Main from './pages/Main/Main'
 import CreateAccount from './pages/CreateAccount/CreateAccount'
 import ConnectWallet from './pages/ConnectWallet/ConnectWallet'
 import Artist from './pages/Artist/Artist'
+import NFT from './pages/NFT/NFT'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       {/* <Main /> */}
       {/* <CreateAccount /> */}
       {/* <ConnectWallet /> */}
-      <Artist />
+      {/* <Artist /> */}
+      <NFT />
     </Layout>
   )
 }
