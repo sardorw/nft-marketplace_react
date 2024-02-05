@@ -4,15 +4,17 @@ import CreateAccount from './pages/CreateAccount/CreateAccount'
 import ConnectWallet from './pages/ConnectWallet/ConnectWallet'
 import Artist from './pages/Artist/Artist'
 import NFT from './pages/NFT/NFT'
+import Marketplace from './pages/Marketplace/Marketplace'
 
 function App() {
   return (
     <Layout>
-      {/* <Main /> */}
+      <Main />
       {/* <CreateAccount /> */}
       {/* <ConnectWallet /> */}
       {/* <Artist /> */}
-      <NFT />
+      {/* <NFT /> */}
+      {/* <Marketplace /> */}
     </Layout>
   )
 }
