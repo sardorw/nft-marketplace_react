@@ -10,13 +10,13 @@ import TopCreators from './pages/TopCreators/TopCreators'
 function App() {
   return (
     <Layout>
-      {/* <Main /> */}
+      <Main />
       {/* <CreateAccount /> */}
       {/* <ConnectWallet /> */}
       {/* <Artist /> */}
       {/* <NFT /> */}
       {/* <Marketplace /> */}
-      <TopCreators />
+      {/* <TopCreators /> */}
     </Layout>
   )
 }
