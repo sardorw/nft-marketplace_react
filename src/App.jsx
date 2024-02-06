@@ -5,16 +5,18 @@ import ConnectWallet from './pages/ConnectWallet/ConnectWallet'
 import Artist from './pages/Artist/Artist'
 import NFT from './pages/NFT/NFT'
 import Marketplace from './pages/Marketplace/Marketplace'
+import TopCreators from './pages/TopCreators/TopCreators'
 
 function App() {
   return (
     <Layout>
-      <Main />
+      {/* <Main /> */}
       {/* <CreateAccount /> */}
       {/* <ConnectWallet /> */}
       {/* <Artist /> */}
       {/* <NFT /> */}
       {/* <Marketplace /> */}
+      <TopCreators />
     </Layout>
   )
 }

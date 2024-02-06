@@ -1,5 +1,12 @@
 .tabs {
-  border: 1px solid $bg-secondary-color;
+  .container {
+    display: flex;
+    padding-top: 10px;
+
+    &.top-line {
+      border-top: 1px solid $bg-secondary-color;
+    }
+  }
 
   .tab {
     display: flex;
@@ -43,9 +50,4 @@
       }
     }
   }
-}
-
-.container {
-  display: flex;
-  padding-top: 10px;
 }

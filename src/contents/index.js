@@ -356,3 +356,14 @@ export const artistCardsData = [
     bid: '0.33 wETH',
   },
 ]
+
+export const topCreatorsData = [
+  {
+    id: 1,
+    avatar: '/images/creators/keepitreal.png',
+    name: 'Jaydon Ekstrom Bothman',
+    change: '+1.41%',
+    sold: '602',
+    volume: '12.4 ETH',
+  },
+]
